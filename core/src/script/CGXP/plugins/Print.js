@@ -583,7 +583,7 @@ cgxp.plugins.Print = Ext.extend(gxp.plugins.Tool, {
             }
         }, this);
         // create the print panel
-        options = Ext.apply({
+        var options = Ext.apply({
             mapPanel: this.target.mapPanel,
             map: this.target.mapPanel.map,
             layer: new OpenLayers.Layer.Vector(null, {
